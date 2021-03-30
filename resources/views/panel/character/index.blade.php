@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <table id="lista-itens"
+    <table id="lista-char"
     class="table table-bordered table-hover table-panel" style="width:100%">
 
     <thead>
@@ -29,11 +29,11 @@
             @endphp
             @forelse($characters as $character)
                 <tr class="text">
-                    <td>{{$rank++}}º</td>
+                    <td>{{$rank++}}</td>
                     {{-- <td>{{$character->classe_name}}</td> --}}
                     <td><img class="classe-icon" src="{{asset('img/classe/icon/'.$character->classe_name.'.png')}}"></td>
                     <td>{{ $character->name }}</td>
-                    <td>{{ $character->_level }}</td>
+                    <td>{{ $character->_level + 1 }}</td>
                     <td> {{ $character->exp }}</td>
                     <td><img class="classe-icon" src="{{asset('img/reino/icon/'.$character->kingdom.'.png')}}"></td>
                     <td>{{ $character->mclasse_name }}</td>

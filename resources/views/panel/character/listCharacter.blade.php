@@ -7,7 +7,7 @@
 @stop
 
 @section('content')
-    <table id="lista-itens"
+    <table id="lista-char"
     class="table table-bordered table-hover table-panel" style="width:100%">
 
     <thead>

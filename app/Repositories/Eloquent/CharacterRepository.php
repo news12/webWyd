@@ -10,7 +10,7 @@ class CharacterRepository extends BaseRepository implements CharacterRepositoryI
 {
 
     private $table_name = 'char';
-    protected $model = Character::Class;
+    protected $model = Character::class;
 
 
     public function getCharacter($field = ['*'],$where = [null])
@@ -56,9 +56,9 @@ class CharacterRepository extends BaseRepository implements CharacterRepositoryI
         ->leftJoin('kingdom', 'char.capeinfo', '=', 'kingdom.id')
         ->select('char.*', 'classe.name as classe_name', 'mclasse.name as mclasse_name', 
         'guild.name as guild', 'kingdom.name as kingdom')
-        ->orderBy('_level', 'desc')
+        ->orderByRaw("evo DESC, _level DESC, exp DESC")
         ->get();
-
+        //dd($data);
         return $data;
     }
 }
