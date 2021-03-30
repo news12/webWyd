@@ -1,0 +1,910 @@
+.popover-avatar {
+    cursor: help;
+}
+
+.txt-mini
+{
+    color: brown;
+    font-size: 20px;
+    position: relative;
+}
+.txt-dark
+{
+    color: goldenrod;
+    font-size: 20px;
+    position: relative;
+}
+
+.status-bag {
+    width: 100%;
+    min-width: 300px;
+    height: 100%;
+    /*max-width: 320px;*/
+    float: left;
+    border-top: #4c4c4c 1px solid;
+    position: relative;
+   
+
+}
+
+.desc-ef1,
+.desc-ef2,
+.desc-ef3 {
+    width: 100%;
+    max-width: 75px;
+    margin-left: 10px;
+    position: relative;
+    float: left;
+
+    text-align: center;
+
+}
+.desc-price
+{
+    width: 100%;
+    position: relative;
+    float: left;
+    border-top: #4c4c4c 1px solid;
+    text-align: right; 
+}
+
+.for,
+.int,
+.agi,
+.esp,
+.mag,
+.effect,
+.evo {
+    color: #2fa360;
+}
+
+.def,
+.res {
+    color: #f0ad4e;
+}
+
+.level-color {
+    color: #f0ad4e;
+}
+
+.item-comum {
+    color: #8c8c8c;
+}
+
+.item-superior {
+    color: #1f6fb2;
+}
+
+.item-raro {
+    color: #6f42c1;
+}
+
+.cols {
+    color: #f39a0d;
+}
+
+.energia {
+    color: #f2c409;
+}
+
+.hp {
+    color: #2fa360;
+}
+
+.table-panel 
+{
+   
+   width: 100%;
+   text-align: center;
+  
+   
+}
+
+.btn-right
+{
+    float: right;
+    position: relative;
+}
+
+.text-right
+{
+    text-align: right;
+}
+.text-center
+{
+    text-align: center;
+}
+
+.btn-left
+{
+    margin-left: 2px;
+    margin-bottom: 3px;
+    float: left;
+    position: relative;
+}
+.btn-edit-del
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    margin-bottom: 2px;
+    max-height: 40px;
+}
+
+.red
+{
+    color: brown;
+}
+.green
+{
+    color: green;
+}
+
+.gold-storage
+{
+    color: chocolate;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.storage-gold
+{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background:  rgb(18, 69, 136); 
+    border:1px solid rgb(44, 117, 212);
+    color: aliceblue;
+    outline:  rgb(44, 117, 212);
+    
+}
+
+.storage-cash
+{
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: rgb(35, 139, 57); 
+    border:1px solid rgb(33, 194, 67);
+    color: aliceblue;
+    outline: rgb(33, 194, 67);
+    
+}
+.p-aviso
+{
+    position: relative;
+    float: right;
+    padding-left: 5px;
+    margin-left: 20px;
+    max-width: 350px;
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    box-shadow: 1px 1px 2px #333333;    
+    -moz-box-shadow: 1px 1px 2px #333333;
+    -webkit-box-shadow: 1px 1px 2px #333333;
+    background: rgb(255, 93, 82); 
+    border:1px solid rgb(233, 116, 116);
+    color: aliceblue;
+    outline: rgb(252, 112, 112);
+}
+.n
+{
+    font-weight: bold;
+}
+
+.menu-logo
+{
+    position: relative;
+    float: right;
+    margin-left: 30px;
+}
+
+.btn-top
+{
+    color: coral;
+}
+.btn-top :active
+{
+    color: cornsilk;
+}
+
+.welcome
+{
+    margin-top: 7px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.width-400
+{
+    float: left;
+    position: relative;
+    width:400px;
+}
+
+.width-300
+{
+    float: left;
+    position: relative;
+    width:300px;
+    margin-right: 2px;
+}
+
+.autor
+{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+
+.width-380
+{
+    width: 380px;
+}
+
+.card-neil
+{
+    margin-right: 10px;
+    margin-left: auto;
+    width: 360px;
+    position: relative;
+    float: left;
+}
+
+.card-guild-hall
+{
+    width: 750px;
+    height: 430px;
+    position: relative;
+    float: left;
+    margin: 0px;
+}
+.no-padding
+{
+    padding: 0px;
+}
+.gh-status-player
+{
+    position: relative;
+    width: 130px;
+    height: 40px;
+    float: left;
+    color: #f39a0d;
+    margin-top: 0px;
+    font-weight: bold;
+    border-style: solid;
+    background-image: url(../../../../img/guildhall/onoff.png);
+    border: rgb(31, 31, 32);
+    border-radius: 3px;
+}
+
+.gh-status-on,
+.gh-status-off
+{
+    position: relative;
+    width: 30px;
+    margin-right: 3px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+   font-weight: normal;
+}
+
+.gh-status-max
+{
+    position: relative;
+    width: 60px;
+    margin-right: 3px;
+    float: left;
+    margin-top: 10px;
+    text-align: center;
+   font-weight: normal;
+}
+
+.gh-ally-enemy
+{
+    position: relative;
+    width: 220px;
+    float: left;
+    margin-left: 5px;
+    background-image: url(../../../../img/guildhall/ally-enemy.png);
+    height: 40px;
+
+}
+
+.gh-ally,
+.gh-enemy
+{
+    position: relative;
+    width: 100px;
+    margin-right: 2px;
+    margin-left: 6px;
+    color: #f39a0d;
+    float: left;
+    margin-top: 3px;
+    height: 35px;
+    text-align: center;
+   font-weight: normal;   
+}
+
+.modal-dark
+{
+    background-color: rgb(34, 39, 39);
+    color: #f39a0d;
+}
+
+.gh-ally
+{
+    background-image: url(../../../../img/guildhall/ally.png);
+}
+
+.gh-enemy
+{
+    background-image: url(../../../../img/guildhall/enemy.png);
+}
+
+.gh-ally p,
+.gh-enemy p
+{
+    margin-top: 12px;
+}
+.gh-btn-action
+{
+    float: left;
+    position: relative;
+    width: 310px;
+    height: 40px;
+    margin-left: 3px;
+    background-image: url(../../../../img/guildhall/btn-action.png); 
+}
+.gh-btn-donate,
+.gh-btn-request,
+.gh-btn-storage
+{
+    float: left;
+    position: relative;
+    background-color: rgb(211, 137, 0);
+    border-color: rgb(228, 189, 105);
+    color: rgb(71, 50, 4);
+    width: 100px;
+    height: 35px;
+    margin-left: 3px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+}
+
+.gh-city
+{
+    position: relative;
+    float: left;
+    width: 680px;
+    height: 80px;
+    background-image: url(../../../../img/guildhall/gh-city.png);
+    margin-top: 5px;
+}
+.gh-Armia,
+.gh-Azran,
+.gh-Erion,
+.gh-Nipplehein,
+.gh-Noatun
+{
+    position: relative;
+    float: left; 
+    width: 133px;
+    border-right: 1px;
+    border-left: 0px;
+    border-top: 0px;
+    border-bottom: 0px;
+    border-style: solid;
+    border-color: rgb(53, 53, 53);
+    color: peru;
+    margin-left: 2px;
+    height: 75px;
+}
+.gh-city-title
+{
+    float: left;
+    position: relative;
+    width: 135px;
+    height: 20px;
+    color: orangered;
+}
+.gh-p-title
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.gh-city-guild,
+.gh-city-tax
+{
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 15px;
+    font-size: 12px;
+}
+.gh-city-tax
+{
+    float: left;
+    position: relative;
+    width: 30px;
+    font-size: 12px;
+    margin-top: 5px; 
+}
+
+.gh-city-guild-name
+{
+    float: left;
+    margin-right: 1px;
+    position: relative;
+    width: 100px;
+    height: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+    color: #f39a0d;
+   
+    
+}
+
+.btn-gh-exit
+{
+    position: relative;
+    float: right;
+    margin-top: 15px;
+    text-align: center;
+    height: 60px;
+}
+
+.btn-gh-exit p
+{
+    margin-top: 10px;
+}
+
+.gh-city-tax-value
+{
+    float: left;
+    position: relative;
+    width: 100px;
+    height: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 4px; 
+    color: #f39a0d;
+}
+
+.gh-Armia strong,
+.gh-Azran strong,
+.gh-Erion strong,
+.gh-Nipplehein strong,
+.gh-Noatun strong
+{
+
+   
+    float: left;
+    position: relative;
+  
+}
+
+.select-dark
+{
+    background-color: rgb(207, 193, 69);
+    color: rgb(109, 99, 8);
+}
+
+.select-dark :hover,
+.select-dark :active,
+.select-dark ::before
+{
+    background-color: rgb(207, 193, 69);
+}
+
+.card-body-hall
+{
+    float: left;
+    position: relative;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    scrollbar-face-color: rgb(65, 65, 66);
+    scrollbar-track-color: rgb(65, 65, 66);
+    scrollbar-base-color: rgb(65, 65, 66);
+    height: 250px;
+    padding: 0;
+    margin: 0px;
+    background-color: rgb(99, 99, 99);
+    color: rgb(228, 189, 105);
+    
+}
+.hg-body-log
+{
+    padding: 0;
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 250px;
+}
+
+.hg-body-apply
+{
+    padding: 0;
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 250px;
+   
+}
+
+.hg-body-panel-leader
+{
+    padding: 0;
+    margin: 0px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 335px;
+}
+
+.gh-modal-apply
+{
+    width: 600px;
+}
+
+.gh-table
+{
+    background-color: rgb(99, 99, 99);
+}
+.gh-tr
+{
+    background-color: rgb(99, 99, 99); 
+}
+
+.card-header-hall
+{
+    background-color: rgb(65, 65, 66);
+    width: auto;
+    height: 50px;
+    padding: 4px;
+}
+
+.card-footer-hall
+{
+    background-color: rgb(65, 65, 66);
+    width: auto; 
+    height: 140px;
+    padding: 4px;
+}
+
+.gh-name,
+.gh-fame,
+.gh-gold,
+.gh-level
+{
+    float: left;
+    position: relative;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f39a0d;
+}
+
+
+.gh-btn-action-office,
+.gh-btn-action-apply,
+.gh-btn-action-refuse
+{
+    font-size: 10px;
+    font-weight: bold;
+    width: 60px;
+    height:20px;
+    float: left;
+    position: relative;
+    background-color: rgb(211, 137, 0);
+    border-color: rgb(228, 189, 105);
+    color: rgb(71, 50, 4);
+    margin-bottom: 2px;
+    padding: 0px;
+}
+
+.input-dark
+{
+    background-color: rgb(31, 31, 32);
+}
+
+.gh-input-panel
+{
+    width: 220px;
+    margin: 3px;
+    float: left;
+    position: relative;
+}
+
+.gh-input-panel-tax
+{
+    width: 80px;
+    margin: 3px;
+    float: left;
+    position: relative;
+}
+
+.gh-panel-city
+{
+    background-color: rgb(32, 34, 34);
+    float: left;
+    position: relative;
+    margin-left: 3px;
+    margin-bottom: 4px;
+}
+
+.gh-impost,
+.gh-tax
+{
+    border-left: 2px;
+    border-right: 2px;
+    border-style: solid;
+    border-color:rgb(22, 22, 22);
+    border-top: none;
+    border-bottom: none;
+    float: left;
+    position: relative;
+    text-align: center;
+    padding: 0px;
+}
+
+.gh-input-panel-gold
+{
+    border-radius: 2px;
+    width: 150px;
+}
+.btn-upload
+{
+    float: left;
+    position: relative;
+}
+
+.gh-impost p
+{
+    margin-left: 2px;
+    padding: 0px;
+}
+
+.gh-btn-panel
+{
+    float: left;
+    position: relative;
+    height: 30px;
+    margin-top: 2px;
+    padding: 0px;
+    width: 70px;
+}
+
+.gh-btn-take
+{
+    float: left;
+    position: relative;
+    height: 30px;
+    margin: 2px;
+    margin-top: -1px;
+    padding: 0px;
+    width: 70px;
+}
+
+.modal-header-panel
+{
+    height: 50px;
+    padding: 0px;
+}
+
+.gh-panel-warning
+{
+    float: left;
+    position: relative;
+    background-color: rgb(153, 153, 153);
+    padding: 3px;
+    font-weight: bold;
+    color: rgb(255, 8, 8);
+}
+
+.txt-impost
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.title-city
+{
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold; 
+    background-color: rgb(24, 27, 26);
+}
+
+.gh-apply-count
+{
+    background-image: url(../../../../img/guildhall/appy-count.png);
+    float: left;
+    position: absolute;
+    height: 15px;
+    width: 50px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-top: -8px;
+    padding: 0px;
+    color: floralwhite;
+}
+
+
+
+.gh-apply-count p
+{
+    margin-top: -4px;
+}
+
+.name-desc
+{
+    border: rgb(31, 31, 32);
+    border-style: solid;
+    background-color: rgb(33, 37, 41); 
+    border-radius: 3px;
+    float: left;
+    width: 160px;
+    margin-left: 3px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    font-size: 16px;
+    color: rgb(228, 189, 105);
+}
+
+.name-mini
+{
+   
+    width: 50px;
+  
+}
+
+.card-body-neil
+{
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 600px;
+    
+}
+
+.card-footer-neil
+{
+    height: 60px;
+}
+
+@media only screen and (max-width: 900px) 
+{
+
+    .card-body-neil
+    {
+        overflow-y: auto;
+        overflow-x: hidden;
+        height: 290px;
+        max-width: 770px;
+        align-self: center;
+        padding: 2px;
+        padding-left: 5px;
+    }
+}
+
+.desc-card-neil
+{
+    width: 220px;
+    position: absolute;
+    margin-left: auto;
+}
+
+.container-sale
+{
+    /* float: left;
+    position: relative; */
+    align-self: center;
+}
+
+.ribon-img
+{
+    position: relative;
+    float: right;
+    margin-right: -25px;
+    margin-top: -40px;
+}
+
+.card-title-neil
+{
+    font-weight: bold;
+    color: rgb(54, 68, 187);
+}
+
+.card-header-neil
+{
+    background-color: rgb(255, 253, 253);
+}
+
+.card-body-stock
+{
+    float: left;
+    position: relative;
+    font-size: 20px;
+}
+
+.card-body-price
+{
+    float: right;
+    position: relative;
+    font-size: 20px;
+}
+
+.btn-neil-buy
+{
+    position: relative;
+    float: right;
+    height: 40px;
+}
+
+.tab-panel-neil
+{
+    width: 300px;
+}
+
+.title-page
+{
+    margin-top: 10px;
+}
+
+.title-neil
+{
+    margin-top: 20px;
+}
+
+.btn-admin-neil
+{
+    width: 100px;
+    height: 80px;
+}
+
+.font-admin-neil
+{
+    font-size: 12px;
+}
+.input-alin-neil
+{
+    width: 100px;
+    float: left;
+    margin-right: 5px;
+    position: relative;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px rgb(0, 0, 0); 
+    border-radius: 5px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:rgb(33, 37, 41); 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:rgb(53, 53, 53); 
+  }
+
+  
